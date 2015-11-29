@@ -1,0 +1,25 @@
+{
+    "plugins": [
+        "mobi.monaca.plugins.Monaca",
+        "org.apache.cordova.splashscreen",
+        "plugin.push.nifty",
+        "org.apache.cordova.camera",
+        "org.apache.cordova.geolocation"
+    ],
+    "framework_version": "3.5",
+    "xcode_version": "6",
+    "cordova_version": "4.1",
+    "plugin_settings": [],
+    "title-ja": "project",
+    "title-en": "",
+    "description-ja": "",
+    "description-en": "",
+    "category": "User Template",
+    "platform": [
+        "android",
+        "ios",
+        "winrt",
+        "chrome"
+    ],
+    "name": "generated-1448520833-56528d48fd17340238d5a41a"
+}

@@ -1,0 +1,29 @@
+<ons-page id="createAlbumPage">
+    <ons-toolbar class="navbar">
+        <div class="center">アルバムにまとめる</div>
+    </ons-toolbar>
+
+    <div style="text-align: center; margin-top:6px; font-size: 10pt;">画像を選択してください</div>
+    <div style="text-align: center">
+
+        <div class="grid-table">
+            <div class="grid-table-body"></div>
+        </div>
+
+    <div class="templates" style="display:none">
+        <div class="grid-table-cell tappable" id="grid-table-cell-template">
+            <img src="" style="width: 100px; height: 100px; margin: 1px; border-color:rgb(255, 255, 255);" border="2px">
+        </div>
+    </div>
+
+    <ons-bottom-toolbar>
+
+        <input type="text" placeholder="アルバム名を入力してください" id="inputAlbmName" style="float: left; width: 75%; height: 60%; margin:5pt 5pt;">
+
+        <ons-button id="rollOk" class="papa-button" style="float: left; width:15%; height:75%; text-align:center; margin:5pt 0pt; padding: 2px;" onClick="create(); myNavigator.popPage();">
+            OK
+        </ons-button>
+    </ons-bottom-toolbar>
+    </div>
+
+</ons-page>

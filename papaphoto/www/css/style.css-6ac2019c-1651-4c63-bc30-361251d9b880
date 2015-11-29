@@ -1,0 +1,12 @@
+.jpegfile{
+    width: 100%;
+}
+@font-face{
+	font-family: kodomo;
+	src: url('./font/KodomoRounded.otf')format("opentype");
+}
+/*.albumlist{
+	padding: 20%;
+}
+
+*/

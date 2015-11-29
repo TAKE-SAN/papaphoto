@@ -1,0 +1,33 @@
+
+<ons-page>
+    <ons-navigator var="mySignup" >
+    <ons-toolbar class="navbar">
+        <div class="center">Sign Up</div>
+        <div class="right" ><ons-toolbar-button id="loginbtn" >LogIn</div></ons-toolbar-button>
+
+    </ons-toolbar>
+    <div class="login-form">
+        <!--usrnameはemailでないが、ボックスのサイズを等しくするためにtypeをemailにしている-->
+        <input id="usrname" type="email" class="text-input--underbar" placeholder="User Name" value="">
+        <input id="email" type="email" class="text-input--underbar" placeholder="Email" value="">
+        <input id="pw" type="password" class="text-input--underbar" placeholder="Password" value="">
+        <br><br>
+    </div>
+        <ons-button id="signupbtn" modifier="large" class="login-button">Sign Up</ons-button>
+        <br><br>
+
+<p style="text-align: center;">
+    <!--<ons-button class="papa-button" onclick="myNavigator.pushPage('login.html');">LogIn</ons-button></p>-->
+    <!--<ons-button onClick="loginbtn()">LogIn</ons-button>-->
+    <br>
+        <!--
+        <ons-button modifier="quiet" class="forgot-password">Forgot password</ons-button>
+
+
+
+
+    <ons-button id="debug">デバッグ</ons-button>
+        -->
+
+</ons-navigator>
+</ons-page>
